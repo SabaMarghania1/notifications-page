@@ -1,8 +1,24 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+root {
+  padding: 2.4rem 1.6rem 4.5rem;
+  min-height: 100vh;
+}
+
+body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+.container {
+  margin: 0 auto;
+  margin-top: 2.4rem;
+  max-width: 343px;
+  width: 100%;
 }

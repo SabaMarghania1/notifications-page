@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 20px;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.qty {
+  display: flex;
+  width: 32px;
+  height: 30px;
+  color: #fff;
+  border-radius: 6px;
+  background-color: #0a327b;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear {
+  font-size: 1.4rem;
+}
