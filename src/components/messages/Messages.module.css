@@ -1,0 +1,84 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.personImg {
+  width: 39px;
+  height: 39px;
+}
+
+.listItem {
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: start;
+  gap: 1.3rem;
+}
+
+.unread {
+  background-color: #f7fafd;
+}
+
+.listItem:hover {
+  border: 1px solid var(--7---Very-Light-Grey-Blue, #dde7ee);
+  background: var(--6---Light-Grey-Blue, #e5effa);
+}
+
+.textContainer {
+  width: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.name {
+  font-size: 14px;
+  margin-right: 6px;
+}
+
+span {
+  font-size: 14px;
+  margin-right: 6px;
+}
+
+.action {
+  color: #5e6778;
+  font-weight: 700;
+}
+
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #f65552;
+  display: inline-block;
+}
+
+.date {
+  color: #939cad;
+  font-weight: 500;
+  margin-top: 3px;
+  font-size: 1.4rem;
+}
+
+.feedback {
+  margin-top: 12px;
+  padding: 16px;
+  border: 1px solid grey;
+  color: var(--4---Dark-Grey-Blue, #5e6778);
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #0a327b;
+  font-size: 14px;
+}
+
+.link {
+  margin-right: 6px;
+}
