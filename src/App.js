@@ -1,9 +1,9 @@
 import "./index.css";
-
-import Header from "./components/Header";
 import Notifications from "./data.js";
 import {useState} from "react";
-import notifications from "./data.js";
+
+import Header from "./components/header/Header";
+import Messages from "./components/messages/Messages";
 
 function App() {
   const [unread, setUnread] = useState(Notifications.filter(item => item.unread).length);
@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="container">
       <Header unread={unread} />
+      <Messages messages={Notifications} />
     </div>
   );
 }

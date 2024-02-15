@@ -1,6 +1,6 @@
 const notifications = [
   {
-    img: "./images/avatar-mark-webber.webp",
+    img: "/images/avatar-mark-webber.webp",
     name: "Mark Webber",
     text: "reacted to your recent",
     type: "post",
