@@ -20,7 +20,7 @@ function Messages({messages, markAsRead}) {
             )}
             {message.action && <span className={styles.action}>{message.action}</span>}
             {message.unread && <span className={styles.circle}></span>}
-            <p className={styles.date}>{message.time}</p>
+            <p className={styles.date}>{message.date}</p>
             {message.feedback && <div className={styles.feedback}>{message.feedback}</div>}
           </div>
           {message.secondImg && (

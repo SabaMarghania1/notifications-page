@@ -18,9 +18,14 @@ function App() {
     }
   };
 
+  const handleClearUnreads = () => {
+    Notifications.map(item => (item.unread = false));
+    setUnread(0);
+  };
+
   return (
     <div className="container">
-      <Header unread={unread} setUnread={setUnread} />
+      <Header unread={unread} setUnread={setUnread} clear={handleClearUnreads} />
       <Messages unread={unread} setUnread={setUnread} messages={messages} markAsRead={markAsRead} />
     </div>
   );
