@@ -26,3 +26,8 @@
 .clear {
   font-size: 1.4rem;
 }
+
+.clear:hover {
+  cursor: pointer;
+  color: #0a327b;
+}

@@ -36,7 +36,6 @@ const notifications = [
     secondImg: "./images/image-chess.webp",
     name: "Kimberly Smith",
     text: "commented  on your picture",
-
     unread: false,
     date: "1 week ago",
   },

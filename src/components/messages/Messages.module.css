@@ -1,6 +1,7 @@
 .list {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .personImg {
@@ -22,9 +23,7 @@
 
 .textContainer {
   width: 100%;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  /* display: flex; */
 }
 .name {
   font-size: 14px;
@@ -39,6 +38,9 @@ span {
 .action {
   color: #5e6778;
   font-weight: 700;
+}
+.action:hover {
+  color: #0a327b;
 }
 
 .circle {
@@ -77,15 +79,19 @@ span {
 
 a {
   text-decoration: none;
-  color: #0a327b;
+
   font-size: 14px;
 }
 
 .link {
   margin-right: 6px;
   font-weight: 700;
+  color: #0a327b;
 }
 
+.link:hover {
+  color: #0a327b;
+}
 .imgBox {
   display: inline-block;
   width: 60px;
