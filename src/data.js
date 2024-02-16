@@ -35,8 +35,8 @@ const notifications = [
     img: "./images/avatar-kimberly-smith.webp",
     secondImg: "./images/image-chess.webp",
     name: "Kimberly Smith",
-    text: "has joined your group",
-    link: "Chess Club",
+    text: "commented  on your picture",
+
     unread: false,
     date: "1 week ago",
   },
